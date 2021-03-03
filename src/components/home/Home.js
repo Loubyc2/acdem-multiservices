@@ -44,7 +44,7 @@ function Home() {
                         <h1 className="homeText-title my-3">
                             Nous avons la <br /><strong style={{ fontSize: '20px', color: '#efdf00' }}>meilleur équipe</strong><br /> pour vous servir
                         </h1>
-                        <button className='btn btn-outline-light'>A propos de nous</button>
+                        <Link to='/about'> <button className='btn btn-outline-light'>A propos de nous</button></Link>
                     </div>
 
                 </div>
