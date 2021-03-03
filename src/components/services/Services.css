@@ -1,0 +1,54 @@
+.services__banner {
+    background-image: url('../../img/services/services-banner.jpg');
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.services__banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__banner-text h1 {
+    color: #005670;
+    font-size: 2rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services__banner-line {
+    width: 100px;
+    height: 4px;
+    background-color: #e4002b;
+}
+
+.services__list-item {
+    padding: 20px;
+    height: max-content;
+    margin: 50px 0;
+    box-shadow: 0.9px 0.4px 10px rgb(204, 199, 199);
+}
+
+.services__list-item h6 {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.services__list-item img {
+    margin-bottom: 30px;
+}
+
+.services__list-item>div>p {
+    color: rgb(82, 80, 80);
+}
+
+.hideText {
+    display: none;
+}
