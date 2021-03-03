@@ -4,6 +4,7 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Services from './components/services/Services';
 import DeepCleaning from './components/deepCleaning/DeepCleaning';
+import About from './components/about/About';
 
 function PageNotFoung() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/services' component={Services} />
-        <Route path='/deep-cleaning' component={DeepCleaning} />
+        <Route exact path='/deep-cleaning' component={DeepCleaning} />
+        <Route exact path='/about' component={About} />
         <Route component={PageNotFoung} />
       </Switch>
     </Router>
