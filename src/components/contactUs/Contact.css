@@ -1,0 +1,13 @@
+.contactUs__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contactUs-right {
+    margin-left: 40px;
+}
+
+.contact-form {
+    display: grid;
+    gap: 20px;
+}
