@@ -81,6 +81,9 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            {/* Section 2 */}
+
             <div className="sectionTwo px-5 py-4">
                 <h4 className='sectionTwo-title'>Nos prestations de service</h4>
                 <div className="sectionTwoText-line"></div>

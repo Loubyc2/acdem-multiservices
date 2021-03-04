@@ -4,7 +4,7 @@ import './DeepCleaning.css';
 
 function DeepCleaning() {
     return (
-        <div className='deepCleaning'>
+        <div className=''>
             I am the DeepCleaning page
         </div>
     )
