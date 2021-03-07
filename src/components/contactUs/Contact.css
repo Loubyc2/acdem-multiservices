@@ -1,8 +1,3 @@
-.contactUs__content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
 .contactUs__banner {
     background-image: url("../../img/services/contact-img.jpg");
     background-position: center;
@@ -40,9 +35,7 @@
 }
 
 .contactUs>h2 {
-    margin: 1rem;
-    padding-bottom: 4px;
-    margin-bottom: 0;
+    margin: 1rem 1rem 0.2rem;
     text-align: center;
     color: #008eaa;
 }
@@ -54,14 +47,6 @@
     margin: 0 auto;
 }
 
-.contactUs-right {
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #222;
-}
-
 .contact-form {
     display: grid;
     gap: 20px;
@@ -70,8 +55,4 @@
 
 .form-control {
     border: none;
-}
-
-.contactUs-right>p>strong {
-    font-size: 1.5rem;
 }
