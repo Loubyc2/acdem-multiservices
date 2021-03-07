@@ -55,7 +55,7 @@ function Contact() {
                 </div>
                 <div className='contactUs-right'>
                     <p> <strong><HiIcons.HiPhone /></strong>  <span>  +123 8989 8989</span></p>
-                    <p><strong><HiIcons.HiMail /></strong> <span>abc@domaine.com</span></p>
+                    <p><strong><HiIcons.HiMail /></strong> <span>tmanoucheca@gmail.com</span></p>
                     <p><strong><HiIcons.HiLocationMarker /></strong>  <span>street 234</span></p>
                 </div>
             </div>
