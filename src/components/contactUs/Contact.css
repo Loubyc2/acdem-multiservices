@@ -22,8 +22,10 @@
 }
 
 .contactUs__banner-text h3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     bottom: 16%;
-    left: 30%;
 }
 
 .contactUs__banner-text:after {
@@ -37,16 +39,27 @@
     opacity: 0.6;
 }
 
-.contactUs-left h5 {
-    margin-bottom: 1rem;
+.contactUs>h2 {
+    margin: 1rem;
+    padding-bottom: 4px;
+    margin-bottom: 0;
+    text-align: center;
     color: #008eaa;
 }
 
+.contactUs-line {
+    width: 45%;
+    height: 2px;
+    background-color: #009f4d;
+    margin: 0 auto;
+}
+
 .contactUs-right {
-    margin-left: 40px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #222;
 }
 
 .contact-form {

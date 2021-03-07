@@ -31,9 +31,11 @@ function Contact() {
             <div className='contactUs__banner'>
                 <div className='contactUs__banner-text'><h3>Contactez-Nous</h3></div>
             </div>
+            <h2>Laissez-nous votre message</h2>
+            <div className="contactUs-line"></div>
             <div className='contactUs__content p-3'>
                 <div className='contactUs-left'>
-                    <h5>Laissez votre message</h5>
+
                     <form className='contact-form form-control  rounded' onSubmit={e => e.preventDefault} action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfz76GuxyLyRStx0UD1azYscCANzIsqHKsM0_eAToWIi781KA/formResponse" target='_blanck' method='post'>
                         <div >
                             <label className='form-label' htmlFor="">Votre Nom</label>
