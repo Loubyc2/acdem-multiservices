@@ -27,6 +27,9 @@ function Header() {
                             <li class="nav-item">
                                 <NavLink to='/about' className="nav-link" activeStyle={{ color: '#0a86ce' }}>À propos</NavLink>
                             </li>
+                            <li className="nav-item">
+                                <NavLink to='/contact-us' className="nav-link" activeStyle={{ color: '#0a86ce' }}>Contact</NavLink>
+                            </li>
                         </ul>
                     </div>
                 </nav>

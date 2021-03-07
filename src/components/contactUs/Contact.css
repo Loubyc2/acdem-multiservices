@@ -3,11 +3,62 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.contactUs__banner {
+    background-image: url("../../img/services/contact-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    z-index: 1;
+    position: relative;
+}
+
+.contactUs__banner-text>* {
+    position: absolute;
+    z-index: 2;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+}
+
+.contactUs__banner-text h3 {
+    bottom: 16%;
+    left: 30%;
+}
+
+.contactUs__banner-text:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5293a7a1;
+    opacity: 0.6;
+}
+
+.contactUs-left h5 {
+    margin-bottom: 1rem;
+    color: #008eaa;
+}
+
 .contactUs-right {
     margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-form {
     display: grid;
     gap: 20px;
+    background-color: #5293a7a1;
+}
+
+.form-control {
+    border: none;
+}
+
+.contactUs-right>p>strong {
+    font-size: 1.5rem;
 }
