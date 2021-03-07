@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import Footer from '../footer/Footer';
-import './Contact.css'
-
-// Icons
-import * as HiIcons from 'react-icons/hi'
-
-// Images
+import './Contact.css';
 
 
 function Contact() {
