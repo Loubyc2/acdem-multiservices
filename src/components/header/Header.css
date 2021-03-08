@@ -9,6 +9,14 @@
     width: 100%;
 }
 
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    background-color: #a7bdd3;
+    z-index: 300;
+}
+
 .navbar-toggler {
     margin-top: 20px;
     background-color: #7b99b5;

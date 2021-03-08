@@ -1,13 +1,26 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Header.css';
 import { NavLink, Link } from 'react-router-dom';
 import logo from '../../img/acdem.svg';
 
 function Header() {
+
+    const [onScroll, setOnscroll] = useState(true)
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                setOnscroll(false)
+            } else {
+                setOnscroll(true
+                )
+            }
+        })
+    }, [])
     return (
         <div>
-            <header className='header p-3'>
-                <nav className="navbar navbar-expand-lg navbar-light container">
+            <header className={onScroll ? 'header p-3' : 'navbar-fixed'}>
+                <nav className='navbar  navbar-expand-lg navbar-light container' >
                     <div className='header__top'>
                         <Link className="header__logo" to='/'>
                             <img src={logo} alt="header-logo" />
