@@ -29,7 +29,10 @@
 }
 
 .services__list-item {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
     height: max-content;
     margin: 50px 0;
     box-shadow: 0.9px 0.4px 10px rgb(204, 199, 199);
@@ -42,7 +45,10 @@
 }
 
 .services__list-item img {
-    margin-bottom: 30px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+    width: 200px;
+    height: auto;
 }
 
 .services__list-item>div>p {
